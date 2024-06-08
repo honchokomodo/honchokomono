@@ -24,11 +24,21 @@ none????????
 i did the bare minimum, just the ascii chars LOL
 <img src="images/ascii.svg" title="ascii chars">
 
+## Screenshots
+
+will take some eventually
+
 ## Construction
 
 here im supposed to write about how i made this. gonna do this later
 
 ## Todo
 
- - make italics
- - make boldface and boldface italic
+ - italics
+ - boldface
+ - restructure the whole thing, wow keeping all that in single files is probably a bad idea
+ - light
+ - programming ligatures
+ - diacritics
+ - math symbols
+ - greek chars
