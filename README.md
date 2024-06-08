@@ -21,3 +21,7 @@ none????????
 
 i did the bare minimum, just the ascii chars LOL
 <img src="images/ascii.svg" title="ascii chars">
+
+## Construction
+
+here im supposed to write about how i made this. gonna do this later
