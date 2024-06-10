@@ -9,17 +9,23 @@ with open(r'agl-aglfn/aglfn.txt', 'r') as f:
 
 font = fontforge.open(r'emptytemplate.sfd')
 
-dir_name = r'src'
-dir_contents = os.listdir(dir_name)
-svg_files = filter(lambda filename: filename[-4:] == '.svg', dir_contents)
-for filename in svg_files:
-    print(f'importing {filename}')
-    glyph_name, extension = filename.split('.')
-    code = glyphtable[glyph_name]
-    glyph = font.createChar(code)
-    glyph.importOutlines(f'{dir_name}/{filename}', r'correctdir')
+variations: list = [
+        'regular',
+        ]
 
-    glyph.removeOverlap()
-    glyph.correctDirection()
+for variation in variations:
+    dir_name: str = f'build/{variation}'
+    dir_contents: list = os.listdir(dir_name)
+    svg_files = filter(lambda filename: filename[-4:] == '.svg', dir_contents)
+    for filename in svg_files:
+        print(f'importing {filename}')
+        glyph_name, extension = filename.split('.')
+        code: int = glyphtable[glyph_name]
+        glyph = font.createChar(code)
+        glyph.importOutlines(f'{dir_name}/{filename}', r'correctdir')
+
+        glyph.removeOverlap()
+        glyph.correctDirection()
 
 font.save('build/honchokomono.sfd')
+
