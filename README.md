@@ -32,11 +32,16 @@ will take some eventually
 
 here im supposed to write about how i made this. gonna do this later
 
+## Building
+
+still not done
+
 ## Todo
 
+ - use svg strokes instead of entire paths and convert strokes to paths before importing into the font
+ - just remake the entire thing with strokes
  - italics
  - boldface
- - restructure the whole thing, wow keeping all that in single files is probably a bad idea
  - light
  - programming ligatures
  - diacritics
