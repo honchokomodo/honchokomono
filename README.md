@@ -38,7 +38,6 @@ still not done
 
 ## Todo
 
- - use svg strokes instead of entire paths and convert strokes to paths before importing into the font
  - just remake the entire thing with strokes
  - italics
  - boldface
