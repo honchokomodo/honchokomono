@@ -5,7 +5,7 @@ with open(r'agl-aglfn/aglfn.txt', 'r') as f:
     lines = f.read().split('\n')
     valid = filter(lambda line: line != '' and line[0] != '#', lines)
     entries = map(lambda line: line.split(';'), valid)
-    glyphtable: dict = {glyph: int(code, 16) for code, glyph, name in entries}
+    glyphtable: dict = {name: int(code, 16) for code, glyph, name in entries}
 
 font = fontforge.open(r'emptytemplate.sfd')
 
