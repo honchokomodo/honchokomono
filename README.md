@@ -39,8 +39,6 @@ still not done
 ## Todo
 
  - italics
- - boldface
- - light
  - programming ligatures
  - diacritics
  - math symbols
