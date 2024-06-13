@@ -4,7 +4,7 @@
 <svg
    height="1000"
    width="400"
-   sodipodi:docname="LATIN CAPITAL LETTER O.svg"
+   sodipodi:docname="LATIN SMALL LETTER R.svg"
    version="1.1"
    id="svg1"
    viewBox="0 0 400 1000"
@@ -23,18 +23,18 @@
      borderopacity="0.3"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="200.11122"
-     inkscape:cy="437.6991"
+     inkscape:zoom="1.4271572"
+     inkscape:cx="136.98561"
+     inkscape:cy="545.13967"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1009"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
+     inkscape:window-width="1904"
+     inkscape:window-height="1032"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
      showborder="true"
      inkscape:showpageshadow="false"
      inkscape:pagecheckerboard="0"
@@ -109,10 +109,13 @@
      id="layer1"
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
+    <g
+       id="g1"
+       transform="translate(-298.60899,4.1587846)" />
     <path
-       style="opacity:1;fill:none;stroke:#000000;stroke-width:70;stroke-linecap:round;stroke-linejoin:round"
-       d="m 224,149.5 c -107.50489,0 -180.776576,187.20174 -180.776576,364.63007 0,159.30039 102.257916,207.82336 160.330506,207.82336 113.14845,0 153.40447,-180.94124 153.40447,-268.49508 C 356.9584,324.88018 324.25269,149.5 224,149.5 Z"
-       id="path12"
-       sodipodi:nodetypes="sssss" />
+       style="fill:none;stroke:#000000;stroke-width:70;stroke-linecap:round;stroke-linejoin:round"
+       d="m 83.541457,385.53321 c 4.580815,139.87463 -0.193023,223.57968 -1.66204,336.59595 4.543072,-113.81601 21.546243,-334.04441 147.759793,-334.04441 39.52094,0 74.59329,33.66018 88.47926,95.42849"
+       id="path3"
+       sodipodi:nodetypes="ccsc" />
   </g>
 </svg>

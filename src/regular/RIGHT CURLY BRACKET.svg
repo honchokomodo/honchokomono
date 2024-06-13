@@ -4,7 +4,7 @@
 <svg
    height="1000"
    width="400"
-   sodipodi:docname="LATIN CAPITAL LETTER O.svg"
+   sodipodi:docname="RIGHT CURLY BRACKET.svg"
    version="1.1"
    id="svg1"
    viewBox="0 0 400 1000"
@@ -23,18 +23,18 @@
      borderopacity="0.3"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="200.11122"
-     inkscape:cy="437.6991"
+     inkscape:zoom="1"
+     inkscape:cx="95.5"
+     inkscape:cy="437"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1009"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
+     inkscape:window-width="1904"
+     inkscape:window-height="1032"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
      showborder="true"
      inkscape:showpageshadow="false"
      inkscape:pagecheckerboard="0"
@@ -109,10 +109,13 @@
      id="layer1"
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
+    <g
+       id="g1"
+       transform="translate(-298.60899,4.1587846)" />
     <path
-       style="opacity:1;fill:none;stroke:#000000;stroke-width:70;stroke-linecap:round;stroke-linejoin:round"
-       d="m 224,149.5 c -107.50489,0 -180.776576,187.20174 -180.776576,364.63007 0,159.30039 102.257916,207.82336 160.330506,207.82336 113.14845,0 153.40447,-180.94124 153.40447,-268.49508 C 356.9584,324.88018 324.25269,149.5 224,149.5 Z"
-       id="path12"
-       sodipodi:nodetypes="sssss" />
+       style="fill:none;stroke:#000000;stroke-width:70;stroke-linecap:round;stroke-linejoin:round"
+       d="m 99.500001,137.25 c 95.992439,-29.22947 118.448649,31.11459 119.634519,83.04563 0.68389,29.94861 -6.81727,60.26514 -6.81727,91.69626 0,58.59885 35.05946,98.46429 88.37072,104.38206 -39.18084,10.51619 -83.62641,61.71779 -83.62641,132.41171 0,34.4616 12.57054,58.52564 12.57054,87.95141 0,53.77349 -42.57625,138.12654 -121.7006,101.83157"
+       id="path2"
+       sodipodi:nodetypes="csscssc" />
   </g>
 </svg>
