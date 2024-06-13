@@ -1,11 +1,11 @@
-main: glyphs builddir
+main: glyphs builddirs
 	#fontforge -lang=py -script import_glyphs.py
 	flatpak run org.fontforge.FontForge -lang=py -script import_glyphs.py
 
 clean:
 	rm -r build
 
-glyphs: builddir
+glyphs: builddirs
 	./convert_strokes.sh
 
 builddirs:
