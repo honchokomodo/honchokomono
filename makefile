@@ -8,6 +8,11 @@ clean:
 glyphs: builddir
 	./convert_strokes.sh
 
-builddir:
+builddirs:
 	mkdir -p build
-	mkdir -p build/regular
+	mkdir -p build/nl
+	mkdir -p build/nr
+	mkdir -p build/nb
+	mkdir -p build/il
+	mkdir -p build/ir
+	mkdir -p build/ib

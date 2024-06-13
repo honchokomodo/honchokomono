@@ -7,13 +7,11 @@ with open(r'agl-aglfn/aglfn.txt', 'r') as f:
     entries = map(lambda line: line.split(';'), valid)
     glyphtable: dict = {name: int(code, 16) for code, glyph, name in entries}
 
-font = fontforge.open(r'emptytemplate.sfd')
 
-variations: list = [
-        'regular',
-        ]
+variations: list = ['nl', 'il', 'nr', 'ir', 'nb', 'ib']
 
 for variation in variations:
+    font = fontforge.open(r'emptytemplate.sfd')
     dir_name: str = f'build/{variation}'
     dir_contents: list = os.listdir(dir_name)
     svg_files = filter(lambda filename: filename[-4:] == '.svg', dir_contents)
@@ -32,5 +30,6 @@ for variation in variations:
         glyph.addExtrema("all")
         glyph.width = 400
 
-font.save('build/honchokomono.sfd')
+    font.save(f'build/honchokomono_{variation}.sfd')
+    font.close()
 
