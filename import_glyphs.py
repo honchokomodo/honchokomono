@@ -28,10 +28,9 @@ for variation in variations:
         glyph.correctDirection()
         glyph.simplify(1)
         glyph.round()
-        glyph.addExtrema("all")
-        glyph.round()
         glyph.removeOverlap()
-        glyph.round()
+        glyph.addExtrema("all")
         glyph.width = 400
 
 font.save('build/honchokomono.sfd')
+
