@@ -38,7 +38,6 @@ still not done
 
 ## Todo
 
- - just remake the entire thing with strokes
  - italics
  - boldface
  - light
