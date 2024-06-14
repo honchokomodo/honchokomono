@@ -1,4 +1,5 @@
 #!/bin/sh
+set -e
 
 inkscape_command="flatpak run org.inkscape.Inkscape"
 for d in src/*; do
