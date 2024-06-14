@@ -4,7 +4,7 @@
 <svg
    height="1000"
    width="400"
-   sodipodi:docname="LATIN SMALL LETTER A.svg"
+   sodipodi:docname="DOLLAR SIGN.svg"
    version="1.1"
    id="svg1"
    viewBox="0 0 400 1000"
@@ -23,9 +23,9 @@
      borderopacity="0.3"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="151.6744"
-     inkscape:cy="473.40798"
+     inkscape:zoom="1"
+     inkscape:cx="115.5"
+     inkscape:cy="411.5"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -109,11 +109,20 @@
      id="layer1"
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
-    <path
-       style="display:inline;opacity:0.351032;fill:none;stroke:#000000;stroke-width:70;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
-       d="M 323.2082,424.67656 C 107.03577,303.45334 -6.0332433,711.90252 133.83761,722.6018 c 118.47518,9.06264 186.6504,-272.56679 193.9426,-316.80196 -37.44117,154.91609 -54.71539,214.99374 -21.41802,316.82132"
-       id="path1"
-       sodipodi:nodetypes="cscc"
-       inkscape:label="a construct" />
+    <g
+       id="layer1-0"
+       inkscape:label="Layer 1"
+       transform="translate(-294.77893,-35.232626)">
+      <path
+         style="opacity:1;fill:none;stroke:#000000;stroke-width:70;stroke-linecap:round;stroke-linejoin:round"
+         d="M 653.25448,292.9244 C 502.41731,183.67636 308.71387,367.4336 489.55788,441.71492 755.91144,551.11911 468.10068,753.60506 335.51197,624.22454"
+         id="path1"
+         sodipodi:nodetypes="csc" />
+      <path
+         style="opacity:1;fill:none;stroke:#000000;stroke-width:70;stroke-linecap:round;stroke-linejoin:round"
+         d="M 606.24994,191.21515 C 553.85029,339.8438 441.09122,565.04103 364.68776,755.48603"
+         id="path2-9"
+         sodipodi:nodetypes="cc" />
+    </g>
   </g>
 </svg>

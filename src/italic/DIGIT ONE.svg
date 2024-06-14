@@ -4,7 +4,7 @@
 <svg
    height="1000"
    width="400"
-   sodipodi:docname="LATIN SMALL LETTER A.svg"
+   sodipodi:docname="DIGIT ONE.svg"
    version="1.1"
    id="svg1"
    viewBox="0 0 400 1000"
@@ -23,9 +23,9 @@
      borderopacity="0.3"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="151.6744"
-     inkscape:cy="473.40798"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="12.020815"
+     inkscape:cy="433.45646"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -110,10 +110,14 @@
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
     <path
-       style="display:inline;opacity:0.351032;fill:none;stroke:#000000;stroke-width:70;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
-       d="M 323.2082,424.67656 C 107.03577,303.45334 -6.0332433,711.90252 133.83761,722.6018 c 118.47518,9.06264 186.6504,-272.56679 193.9426,-316.80196 -37.44117,154.91609 -54.71539,214.99374 -21.41802,316.82132"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:70;stroke-linecap:round;stroke-linejoin:round"
+       d="M 184.09398,278.24979 C 224.79487,242.75175 275.68602,204.35998 327.60168,145.11925 269.71317,342.2236 247.7114,513.91879 183.41234,710.267"
        id="path1"
-       sodipodi:nodetypes="cscc"
-       inkscape:label="a construct" />
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:70;stroke-linecap:round;stroke-linejoin:round"
+       d="M 71.918831,717.41335 C 123.44326,706.14577 243.81802,710.93359 314.82547,713.521"
+       id="path2"
+       sodipodi:nodetypes="cc" />
   </g>
 </svg>

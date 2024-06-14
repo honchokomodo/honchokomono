@@ -4,7 +4,7 @@
 <svg
    height="1000"
    width="400"
-   sodipodi:docname="LATIN SMALL LETTER A.svg"
+   sodipodi:docname="DIGIT THREE.svg"
    version="1.1"
    id="svg1"
    viewBox="0 0 400 1000"
@@ -23,9 +23,9 @@
      borderopacity="0.3"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="151.6744"
-     inkscape:cy="473.40798"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="45.961941"
+     inkscape:cy="395.27269"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -110,10 +110,9 @@
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
     <path
-       style="display:inline;opacity:0.351032;fill:none;stroke:#000000;stroke-width:70;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
-       d="M 323.2082,424.67656 C 107.03577,303.45334 -6.0332433,711.90252 133.83761,722.6018 c 118.47518,9.06264 186.6504,-272.56679 193.9426,-316.80196 -37.44117,154.91609 -54.71539,214.99374 -21.41802,316.82132"
-       id="path1"
-       sodipodi:nodetypes="cscc"
-       inkscape:label="a construct" />
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:70;stroke-linecap:round;stroke-linejoin:round"
+       d="m 161.01428,254.35921 c 82.93098,-205.84282 381.67054,-3.56022 43.9849,146.59315 99.49794,-5.22524 148.17361,63.27736 148.17361,122.58991 0,131.05869 -212.59953,279.23735 -303.832169,97.10239"
+       id="path2"
+       sodipodi:nodetypes="ccsc" />
   </g>
 </svg>

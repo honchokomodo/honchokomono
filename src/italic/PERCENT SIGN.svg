@@ -4,7 +4,7 @@
 <svg
    height="1000"
    width="400"
-   sodipodi:docname="LATIN SMALL LETTER A.svg"
+   sodipodi:docname="PERCENT SIGN.svg"
    version="1.1"
    id="svg1"
    viewBox="0 0 400 1000"
@@ -23,9 +23,9 @@
      borderopacity="0.3"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="151.6744"
-     inkscape:cy="473.40798"
+     inkscape:zoom="0.5"
+     inkscape:cx="373"
+     inkscape:cy="599"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -109,11 +109,25 @@
      id="layer1"
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
+    <g
+       id="layer1-0"
+       inkscape:label="Layer 1"
+       transform="translate(-294.77893,-35.232626)">
+      <path
+         style="opacity:1;fill:none;stroke:#000000;stroke-width:70;stroke-linecap:round;stroke-linejoin:round"
+         d="m 464.77893,221.80879 c 68.23351,0 2.99341,198.92384 -55.57107,198.92384 -69.59263,0 11.65214,-198.92384 55.57107,-198.92384 z"
+         id="path1"
+         sodipodi:nodetypes="sss" />
+      <path
+         style="opacity:1;fill:none;stroke:#000000;stroke-width:70;stroke-linecap:round;stroke-linejoin:round"
+         d="M 664.49994,209.46515 C 582.29096,340.7407 434.74277,560.77928 324.18776,739.48603"
+         id="path2-9"
+         sodipodi:nodetypes="cc" />
+    </g>
     <path
-       style="display:inline;opacity:0.351032;fill:none;stroke:#000000;stroke-width:70;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
-       d="M 323.2082,424.67656 C 107.03577,303.45334 -6.0332433,711.90252 133.83761,722.6018 c 118.47518,9.06264 186.6504,-272.56679 193.9426,-316.80196 -37.44117,154.91609 -54.71539,214.99374 -21.41802,316.82132"
-       id="path1"
-       sodipodi:nodetypes="cscc"
-       inkscape:label="a construct" />
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:70;stroke-linecap:round;stroke-linejoin:round"
+       d="m 291.86884,476.29668 c 45.38069,0 13.21585,188.68416 -54.8003,188.68416 -48.49012,0 -9.62181,-188.68416 54.8003,-188.68416 z"
+       id="path6"
+       sodipodi:nodetypes="sss" />
   </g>
 </svg>
