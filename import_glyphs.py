@@ -37,8 +37,13 @@ for variation in variations:
         glyph.width = 400
 
     font.fontname = f"honchokomono-{variation}"
-    font.fullname = f"honchokomono {form} {weight}"
+    font.fullname = f"honchokomono-{form}{weight}"
+    font.familyname = f"honchokomono-{form}"
     font.weight = weight
+    font.os2_weight = {'light': 300, 'regular': 400, 'bold': 700}[weight]
+    font.appendSFNTName('English (US)', 'Preferred Styles', f'{form}{weight}')
+    font.appendSFNTName('English (US)', 'WWS Family', f'honchokomono')
+    font.appendSFNTName('English (US)', 'WWS Subfamily', f'{form}{weight}')
     if form == 'italic':
         font.italicangle = -12
     font.save(f'build/honchokomono_{variation}.sfd')
