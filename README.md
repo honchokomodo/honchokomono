@@ -12,8 +12,7 @@ good luck
 
 ## Styles
 
-literally just regular or whatever. im working on making italics. sometimes.
-this is really tiring okay
+<img src="images/styles.svg" title="styles">
 
 ## Features
 
@@ -27,10 +26,6 @@ i did the bare minimum, just the ascii chars LOL
 ## Screenshots
 
 will take some eventually
-
-## Construction
-
-here im supposed to write about how i made this. gonna do this later
 
 ## Building
 
