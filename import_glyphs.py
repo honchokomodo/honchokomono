@@ -47,5 +47,6 @@ for variation in variations:
     if form == 'italic':
         font.italicangle = -12
     font.save(f'build/honchokomono_{variation}.sfd')
+    font.generate(f'build/honchokomono-{variation}.otf')
     font.close()
 
