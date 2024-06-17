@@ -24,17 +24,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4142136"
-     inkscape:cx="4.9497475"
-     inkscape:cy="577.70624"
+     inkscape:cx="4.9497473"
+     inkscape:cy="577.70622"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true"
-     inkscape:window-width="1904"
-     inkscape:window-height="1032"
-     inkscape:window-x="8"
-     inkscape:window-y="40"
-     inkscape:window-maximized="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
      showborder="true"
      inkscape:showpageshadow="false"
      inkscape:pagecheckerboard="0"
@@ -111,7 +111,7 @@
      inkscape:label="Layer 1">
     <path
        style="opacity:1;fill:none;stroke:#000000;stroke-width:70;stroke-linecap:round;stroke-linejoin:round"
-       d="M 82.334711,679.33884 C 162.53574,797.19294 282.76657,703.53746 292.09073,626.4677 310.48672,474.41383 127.95457,577.78962 130.22879,471.40204 131.70352,402.41457 272.20625,342.32332 319.22661,439.78236"
+       d="M 54.334711,679.33884 C 134.53574,797.19294 254.76657,703.53746 264.09073,626.4677 282.48672,474.41383 99.95457,577.78962 102.22879,471.40204 103.70352,402.41457 244.20625,342.32332 291.22661,439.78236"
        id="path1"
        sodipodi:nodetypes="cssc" />
   </g>

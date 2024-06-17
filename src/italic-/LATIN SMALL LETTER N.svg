@@ -30,11 +30,11 @@
      inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true"
-     inkscape:window-width="1904"
-     inkscape:window-height="1032"
-     inkscape:window-x="8"
-     inkscape:window-y="40"
-     inkscape:window-maximized="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
      showborder="true"
      inkscape:showpageshadow="false"
      inkscape:pagecheckerboard="0"
@@ -111,7 +111,7 @@
      inkscape:label="Layer 1">
     <path
        style="opacity:1;fill:none;stroke:#000000;stroke-width:70;stroke-linecap:round;stroke-linejoin:round"
-       d="M 286.30152,718.58073 C 369.58598,570.54535 355.22545,73.35095 71.16483,719.93606 98.31637,600.06927 158.85572,435.20937 134.80508,393.24369"
+       d="M 258.30152,718.58073 C 341.58598,570.54535 327.22545,73.35095 43.16483,719.93606 70.31637,600.06927 130.85572,435.20937 106.80508,393.24369"
        id="path1"
        sodipodi:nodetypes="ccc" />
   </g>
