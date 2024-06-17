@@ -38,3 +38,7 @@ still not done
  - diacritics
  - math symbols
  - greek chars
+
+## Give Me Money
+
+https://ko-fi.com/honchokomodo
