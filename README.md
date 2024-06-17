@@ -38,7 +38,7 @@ still not done
 
 ## Todo
 
- - italics
+ - check spacing for italics
  - programming ligatures
  - diacritics
  - math symbols
