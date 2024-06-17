@@ -6,9 +6,9 @@ for d in src/*; do
 	for i in $d/*.svg; do
 		echo converting $i 
 		o=$(echo $i | sed "s/src/build/")
-		o_l=$(echo $o | sed -E "s/(ormal|talic)/l/")
-		o_r=$(echo $o | sed -E "s/(ormal|talic)/r/")
-		o_b=$(echo $o | sed -E "s/(ormal|talic)/b/")
+		o_l=$(echo $o | sed "s/-/-light/")
+		o_r=$(echo $o | sed "s/-/-regular/")
+		o_b=$(echo $o | sed "s/-/-bold/")
 		cat "$i" | sed "s/stroke-width:70/stroke-width:40/" | \
 			${inkscape_command} \
 			--actions="select-all:all;object-stroke-to-path" \

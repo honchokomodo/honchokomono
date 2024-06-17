@@ -1,4 +1,4 @@
-main: glyphs builddirs
+main:
 	#fontforge -lang=py -script import_glyphs.py
 	flatpak run org.fontforge.FontForge -lang=py -script import_glyphs.py
 
@@ -10,9 +10,9 @@ glyphs: builddirs
 
 builddirs:
 	mkdir -p build
-	mkdir -p build/nl
-	mkdir -p build/nr
-	mkdir -p build/nb
-	mkdir -p build/il
-	mkdir -p build/ir
-	mkdir -p build/ib
+	mkdir -p build/normal-light
+	mkdir -p build/normal-regular
+	mkdir -p build/normal-bold
+	mkdir -p build/italic-light
+	mkdir -p build/italic-regular
+	mkdir -p build/italic-bold

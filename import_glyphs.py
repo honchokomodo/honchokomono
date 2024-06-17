@@ -8,9 +8,14 @@ with open(r'agl-aglfn/aglfn.txt', 'r') as f:
     glyphtable: dict = {name: int(code, 16) for code, glyph, name in entries}
 
 
-variations: list = ['nl', 'il', 'nr', 'ir', 'nb', 'ib']
+variations: list = [
+        'normal-light', 'italic-light',
+        'normal-regular', 'italic-regular',
+        'normal-bold', 'italic-bold'
+        ]
 
 for variation in variations:
+    form, weight = variation.split('-')
     font = fontforge.open(r'emptytemplate.sfd')
     dir_name: str = f'build/{variation}'
     dir_contents: list = os.listdir(dir_name)
@@ -28,8 +33,14 @@ for variation in variations:
         glyph.round()
         glyph.removeOverlap()
         glyph.addExtrema("all")
+        glyph.simplify(1)
         glyph.width = 400
 
+    font.fontname = f"honchokomono-{variation}"
+    font.fullname = f"honchokomono {form} {weight}"
+    font.weight = weight
+    if form == 'italic':
+        font.italicangle = -12
     font.save(f'build/honchokomono_{variation}.sfd')
     font.close()
 
