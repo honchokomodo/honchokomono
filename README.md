@@ -34,8 +34,10 @@ still not done
 ## Todo
 
  - check spacing for italics
+ - fix vertical spacing
  - programming ligatures
  - diacritics
+ - box drawing glyphs
  - math symbols
  - greek chars
 
