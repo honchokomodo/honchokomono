@@ -43,12 +43,25 @@ for dirname, name in variations:
         unicode_name: str = filename.split('.')[0]
         codepoint: int = glyphtable[unicode_name]
         glyph = font.createChar(codepoint)
+
         glyph.importOutlines(f'build/{dirname}/{filename}')
         glyph.width = 400
-        glyph.removeOverlap()
+        glyph.simplify(1)
+        glyph.addExtrema("all")
 
     font.removeOverlap()
     font.correctDirection()
-    font.save(f'build/honchokomono-{dirname}.sfd')
+    font.fontname = f'honchokomono-{dirname}'
+    font.fullname = f'honchokomono {name}'
+    font.familyname = f'honchokomono-{form}'
+    font.weight = weight
+    font.os2_weight = {'light': 300, 'regular': 400, 'bold': 700}[weight]
+    font.appendSFNTName('English (US)', 'Preferred Styles', f'{name}')
+    font.appendSFNTName('English (US)', 'WWS Family', f'honchokomono')
+    font.appendSFNTName('English (US)', 'WWS Subfamily', f'{name}')
+    if form == 'italic':
+        font.italicangle = -12
+    font.save(f'build/honchokomono_{dirname}.sfd')
+    font.generate(f'build/honchokomono-{dirname}.otf')
     font.close()
 
