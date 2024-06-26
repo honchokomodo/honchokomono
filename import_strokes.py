@@ -42,10 +42,28 @@ for dirname, name in variations:
         print(f'importing build/{dirname}/{filename}')
         unicode_name: str = filename.split('.')[0]
         codepoint: int = glyphtable[unicode_name]
+
         glyph = font.createChar(codepoint)
 
         glyph.importOutlines(f'build/{dirname}/{filename}')
         glyph.width = 400
+        glyph.simplify(1)
+        glyph.addExtrema("all")
+
+    font.addLookup('ligatures', 'gsub_ligature', None, (("liga",(("DFLT",("dflt")),("latn",("dflt")),)),))
+    font.addLookupSubtable('ligatures', 'ligatures-1')
+    for filename in os.listdir(f'build/{dirname}-liga'):
+        print(filename)
+        names: list = filename.split('.')[0].split('_')
+        liganame = names.pop(0)
+
+        glyph = font.createChar(-1, liganame)
+        glyph.glyphclass = 'baseligature'
+        glyph.glyphname = liganame
+        glyph.addPosSub('ligatures-1', names)
+
+        glyph.importOutlines(f'build/{dirname}-liga/{filename}')
+        glyph.width = 800
         glyph.simplify(1)
         glyph.addExtrema("all")
 
