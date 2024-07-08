@@ -3,11 +3,11 @@
 
 <svg
    height="1000"
-   width="400"
+   width="500"
    sodipodi:docname="glyphtemplate.svg"
    version="1.1"
    id="svg1"
-   viewBox="0 0 400 1000"
+   viewBox="0 0 500 1000"
    inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -23,9 +23,9 @@
      borderopacity="0.3"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="501"
-     inkscape:cy="500"
+     inkscape:zoom="0.68305642"
+     inkscape:cx="260.59341"
+     inkscape:cy="478.73059"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -40,53 +40,53 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1">
     <sodipodi:guide
-       position="0,900"
+       position="0,935"
        orientation="0,1000"
        id="ink-font-guide-ascender"
        inkscape:label="ascender"
-       inkscape:locked="false" />
+       inkscape:locked="true" />
     <sodipodi:guide
-       position="0,875"
+       position="0,935"
        orientation="0,1000"
        id="ink-font-guide-caps"
        inkscape:label="caps"
-       inkscape:locked="false" />
+       inkscape:locked="true" />
     <sodipodi:guide
-       position="0,625"
+       position="0,730"
        orientation="0,1000"
        id="ink-font-guide-x-height"
        inkscape:label="x-height"
-       inkscape:locked="false" />
+       inkscape:locked="true" />
     <sodipodi:guide
-       position="0,250"
+       position="0,200"
        orientation="0,1000"
        id="ink-font-guide-baseline"
        inkscape:label="baseline"
-       inkscape:locked="false" />
+       inkscape:locked="true" />
     <sodipodi:guide
        position="0,0"
        orientation="0,1000"
        id="ink-font-guide-descender"
        inkscape:label="descender"
-       inkscape:locked="false" />
+       inkscape:locked="true" />
   </sodipodi:namedview>
   <defs
      id="defs4">
     <font
-       horiz-adv-x="400"
+       horiz-adv-x="500"
        id="font1"
        inkscape:label="font 1"
-       horiz-origin-y="250"
+       horiz-origin-y="200"
        horiz-origin-x="0"
        vert-origin-x="512"
        vert-origin-y="768"
        vert-adv-y="1024">
       <font-face
          units-per-em="1000"
-         ascent="650"
-         cap-height="625"
-         x-height="375"
-         descent="250"
+         ascent="735"
+         cap-height="735"
+         x-height="530"
+         descent="200"
          id="font-face1"
          font-family="SVGFont 1" />
       <missing-glyph
