@@ -46,7 +46,7 @@ for dirname, name in variations:
         glyph = font.createChar(codepoint)
 
         glyph.importOutlines(f'build/{dirname}/{filename}')
-        glyph.width = 400
+        glyph.width = 500
         glyph.simplify(1)
         glyph.addExtrema("all")
 
@@ -63,7 +63,7 @@ for dirname, name in variations:
         glyph.addPosSub('ligatures-1', names)
 
         glyph.importOutlines(f'build/{dirname}-liga/{filename}')
-        glyph.width = 800
+        glyph.width = 1000
         glyph.simplify(1)
         glyph.addExtrema("all")
 
