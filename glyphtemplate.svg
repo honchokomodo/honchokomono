@@ -23,17 +23,17 @@
      borderopacity="0.3"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.68305642"
-     inkscape:cx="261.32541"
-     inkscape:cy="477.26658"
+     inkscape:zoom="0.5"
+     inkscape:cx="279"
+     inkscape:cy="378"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true"
      inkscape:window-width="958"
      inkscape:window-height="1000"
-     inkscape:window-x="-7"
-     inkscape:window-y="0"
+     inkscape:window-x="882"
+     inkscape:window-y="73"
      inkscape:window-maximized="0"
      showborder="true"
      inkscape:showpageshadow="false"
@@ -44,31 +44,45 @@
        orientation="0,1000"
        id="ink-font-guide-ascender"
        inkscape:label="ascender"
-       inkscape:locked="true" />
+       inkscape:locked="false" />
     <sodipodi:guide
        position="0,935"
        orientation="0,1000"
        id="ink-font-guide-caps"
        inkscape:label="caps"
-       inkscape:locked="true" />
+       inkscape:locked="false" />
     <sodipodi:guide
        position="0,600"
        orientation="0,1000"
        id="ink-font-guide-x-height"
        inkscape:label="x-height"
-       inkscape:locked="true" />
+       inkscape:locked="false" />
     <sodipodi:guide
        position="0,200"
        orientation="0,1000"
        id="ink-font-guide-baseline"
        inkscape:label="baseline"
-       inkscape:locked="true" />
+       inkscape:locked="false" />
     <sodipodi:guide
        position="0,0"
        orientation="0,1000"
        id="ink-font-guide-descender"
        inkscape:label="descender"
-       inkscape:locked="true" />
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="0,200"
+       orientation="0.9781476,-0.20791169"
+       id="guide1"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="500,200"
+       orientation="0.9781476,-0.20791169"
+       id="guide2"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
   </sodipodi:namedview>
   <defs
      id="defs4">
