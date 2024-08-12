@@ -3,124 +3,106 @@
 
 <svg
    height="1000"
-   width="400"
+   width="500"
    sodipodi:docname="LATIN SMALL LETTER T.svg"
    version="1.1"
    id="svg1"
-   viewBox="0 0 400 1000"
-   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   viewBox="0 0 500 1000"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   xml:space="preserve"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <sodipodi:namedview
+   xmlns:dc="http://purl.org/dc/elements/1.1/"><sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
      bordercolor="#000000"
      borderopacity="0.3"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4271572"
-     inkscape:cx="154.50295"
-     inkscape:cy="395.89192"
+     inkscape:zoom="0.68305642"
+     inkscape:cx="305.24565"
+     inkscape:cy="494.83467"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true"
-     inkscape:window-width="1904"
+     inkscape:window-width="948"
      inkscape:window-height="1032"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-x="964"
+     inkscape:window-y="40"
      inkscape:window-maximized="0"
      showborder="true"
      inkscape:showpageshadow="false"
      inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1">
-    <sodipodi:guide
-       position="0,900"
+     inkscape:deskcolor="#d1d1d1"><sodipodi:guide
+       position="0,935"
        orientation="0,1000"
        id="ink-font-guide-ascender"
        inkscape:label="ascender"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="0,875"
+       inkscape:locked="false" /><sodipodi:guide
+       position="0,935"
        orientation="0,1000"
        id="ink-font-guide-caps"
        inkscape:label="caps"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="0,625"
+       inkscape:locked="false" /><sodipodi:guide
+       position="0,600"
        orientation="0,1000"
        id="ink-font-guide-x-height"
        inkscape:label="x-height"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="0,250"
+       inkscape:locked="false" /><sodipodi:guide
+       position="0,200"
        orientation="0,1000"
        id="ink-font-guide-baseline"
        inkscape:label="baseline"
-       inkscape:locked="false" />
-    <sodipodi:guide
+       inkscape:locked="false" /><sodipodi:guide
        position="0,0"
        orientation="0,1000"
        id="ink-font-guide-descender"
        inkscape:label="descender"
-       inkscape:locked="false" />
-  </sodipodi:namedview>
-  <defs
-     id="defs4">
-    <font
-       horiz-adv-x="400"
+       inkscape:locked="false" /></sodipodi:namedview><defs
+     id="defs4"><font
+       horiz-adv-x="500"
        id="font1"
        inkscape:label="font 1"
-       horiz-origin-y="250"
+       horiz-origin-y="200"
        horiz-origin-x="0"
        vert-origin-x="512"
        vert-origin-y="768"
-       vert-adv-y="1024">
-      <font-face
+       vert-adv-y="1024"><font-face
          units-per-em="1000"
-         ascent="650"
-         cap-height="625"
-         x-height="375"
-         descent="250"
+         ascent="735"
+         cap-height="735"
+         x-height="400"
+         descent="200"
          id="font-face1"
-         font-family="SVGFont 1" />
-      <missing-glyph
+         font-family="SVGFont 1" /><missing-glyph
          d="M0,0h1000v1000h-1000z"
-         id="missing-glyph1" />
-    </font>
-  </defs>
-  <metadata
-     id="metadata7">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
+         id="missing-glyph1" /></font></defs><metadata
+     id="metadata7"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><g
      id="layer1"
      inkscape:groupmode="layer"
-     inkscape:label="Layer 1">
-    <g
+     inkscape:label="Layer 1"><g
+       id="layer1-8-8"
+       inkscape:label="Layer 1"
+       transform="matrix(1.1754172,0,0,1.1938607,434.96351,-77.102301)"
+       style="stroke-width:0.844164"><g
+         id="g2"
+         transform="translate(-298.60899,4.1587846)"
+         style="stroke-width:0.844164" /></g><g
        id="g1"
-       transform="translate(-298.60899,4.1587846)" />
-    <path
+       transform="matrix(1.2086608,0,0,1.1772586,-352.71347,-85.112537)"
+       style="stroke-width:0.838324" /><path
        style="fill:none;stroke:#000000;stroke-width:70;stroke-linecap:round;stroke-linejoin:round"
-       d="m 124.26951,254.2187 c 5.78867,45.30809 -20.78616,157.93444 -24.08214,274.83436 -2.796961,99.2014 13.44042,204.14843 81.89522,204.14843 57.95922,0 139.33088,-73.07729 113.24882,-150.80611"
+       d="m 158.4032,209.27265 c 6.99654,53.33934 -25.12342,185.92968 -29.10714,323.55111 -3.38057,116.7857 16.24491,240.3355 98.98354,240.3355 70.05304,0 168.40378,-86.03087 136.87941,-177.53779"
        id="path1"
-       sodipodi:nodetypes="cssc" />
-    <path
+       sodipodi:nodetypes="cssc" /><path
        style="fill:none;stroke:#000000;stroke-width:70;stroke-linecap:round;stroke-linejoin:round"
-       d="m 264.08297,430.80703 c -42.00818,-0.49068 -112.2868,2.99544 -156.1307,-4.24581"
+       d="m 327.39025,417.16278 c -50.77364,-0.57766 -135.71665,3.52641 -188.70906,-4.99842"
        id="path2"
-       sodipodi:nodetypes="cc" />
-  </g>
-</svg>
+       sodipodi:nodetypes="cc" /></g></svg>

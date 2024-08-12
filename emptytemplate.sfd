@@ -9,8 +9,8 @@ Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: 0
 UnderlineWidth: 0
-Ascent: 750
-Descent: 250
+Ascent: 800
+Descent: 200
 InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
@@ -21,27 +21,27 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1717993120
-ModificationTime: 1719085127
+ModificationTime: 1720631855
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
-LineGap: 90
+LineGap: 68
 VLineGap: 0
-OS2TypoAscent: 800
+OS2TypoAscent: 977
 OS2TypoAOffset: 0
-OS2TypoDescent: -200
+OS2TypoDescent: -273
 OS2TypoDOffset: 0
-OS2TypoLinegap: 90
-OS2WinAscent: 800
+OS2TypoLinegap: 0
+OS2WinAscent: 977
 OS2WinAOffset: 0
-OS2WinDescent: 200
+OS2WinDescent: 273
 OS2WinDOffset: 0
-HheadAscent: 800
+HheadAscent: 977
 HheadAOffset: 0
-HheadDescent: -200
+HheadDescent: -205
 HheadDOffset: 0
-OS2CapHeight: 625
-OS2XHeight: 375
+OS2CapHeight: 735
+OS2XHeight: 530
 OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
@@ -52,7 +52,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 19 6
+WinInfo: 57 19 6
 OnlyBitmaps: 1
 BeginPrivate: 0
 EndPrivate
