@@ -20,10 +20,16 @@ for form in os.listdir(r'src'):
         print(f'populating build/{weightname}-{form}')
         os.mkdir(f'build/{weightname}-{form}')
         for filename in os.listdir(f'src/{form}'):
-            replacement: str = f's/stroke-width:70/stroke-width:{weight}/'
-            infile: str = f'\"src/{form}/{filename}\"'
-            outfile: str = f'\"build/{weightname}-{form}/{filename}\"'
-            os.system(f'sed {replacement} {infile} > {outfile}')
+            infile: str = f'src/{form}/{filename}'
+            outfile: str = f'build/{weightname}-{form}/{filename}'
+
+            with open(infile, 'r') as instroke:
+                contents: str = instroke.read()
+                contents = contents.replace('stroke-width:120', f'stroke-width:{weight + 40}')
+                contents = contents.replace('stroke-width:70', f'stroke-width:{weight}')
+
+                with open(outfile, 'w') as outstroke:
+                    outstroke.write(contents)
 
 variations: list = [
         ('light-normal', 'Light'),
@@ -57,6 +63,7 @@ for dirname, name in variations:
         print(f'importing build/{dirname}-liga/{filename}')
         names: list = filename.split('.')[0].split('_')
         liganame = names.pop(0)
+        # liganame += '.ligature'
 
         glyph = font.createChar(-1, liganame)
         glyph.glyphclass = 'baseligature'
