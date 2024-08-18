@@ -11,8 +11,8 @@ os.mkdir(r'build')
 
 weights: list = [
         (40, 'light'),
-        (70, 'regular'),
-        (100, 'bold')
+        (80, 'regular'),
+        (120, 'bold')
         ]
 
 for form in os.listdir(r'src'):
@@ -47,23 +47,25 @@ for dirname, name in variations:
 
         glyph.importOutlines(f'build/{dirname}/{filename}')
         glyph.width = 500
+        glyph.removeOverlap()
         glyph.simplify(1)
         glyph.addExtrema("all")
 
     font.addLookup('ligatures', 'gsub_ligature', None, (("liga",(("DFLT",("dflt")),("latn",("dflt")),)),))
     font.addLookupSubtable('ligatures', 'ligatures-1')
     for filename in os.listdir(f'build/{dirname}-liga'):
-        print(filename)
+        print(f'importing build/{dirname}-liga/{filename}')
         names: list = filename.split('.')[0].split('_')
         liganame = names.pop(0)
 
         glyph = font.createChar(-1, liganame)
         glyph.glyphclass = 'baseligature'
-        glyph.glyphname = liganame
+        glyph.glyphname = liganame + '.ligature'
         glyph.addPosSub('ligatures-1', names)
 
         glyph.importOutlines(f'build/{dirname}-liga/{filename}')
         glyph.width = 500 * len(names)
+        glyph.removeOverlap()
         glyph.simplify(1)
         glyph.addExtrema("all")
 
