@@ -33,9 +33,11 @@ still not done
 
 ## Todo
 
- - check spacing for italics
- - fix vertical spacing
- - programming ligatures
+ - redo the readme pics
+ - take some screenshots
+ - add one feature
+ - replace `sed` call in build script with python string replacement
+ - add more programming ligatures `++ -- <= >= == !=`
  - diacritics
  - box drawing glyphs
  - math symbols
