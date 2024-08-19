@@ -36,8 +36,6 @@ still not done
  - redo the readme pics
  - take some screenshots
  - add one feature
- - replace `sed` call in build script with python string replacement
- - add more programming ligatures `++ -- <= >= == !=`
  - diacritics
  - box drawing glyphs
  - math symbols
