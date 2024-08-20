@@ -16,7 +16,8 @@ good luck
 
 ## Features
 
-none????????
+some programming ligatures, thats kinda it
+<img src="images/ligatures.svg" title="features">
 
 ## Character set
 
@@ -33,9 +34,7 @@ still not done
 
 ## Todo
 
- - redo the readme pics
  - take some screenshots
- - add one feature
  - diacritics
  - box drawing glyphs
  - math symbols
