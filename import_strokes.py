@@ -12,9 +12,7 @@ os.mkdir(r'build')
 weights: list = [
         (40, 'light'),
         (80, 'regular'),
-        (120, 'bold')
-        ]
-
+        (120, 'bold') ]
 for form in os.listdir(r'src'):
     for weight, weightname in weights:
         print(f'populating build/{weightname}-{form}')
@@ -41,6 +39,8 @@ variations: list = [
         ]
 
 for dirname, name in variations:
+    createdtbl: dict = {}
+
     weight, form = dirname.split('-')
     font = fontforge.open(r'emptytemplate.sfd')
     print(f'importing build/{dirname}')
@@ -50,6 +50,7 @@ for dirname, name in variations:
         codepoint: int = glyphtable[unicode_name]
 
         glyph = font.createChar(codepoint)
+        createdtbl.update({glyph.glyphname: glyph})
 
         glyph.importOutlines(f'build/{dirname}/{filename}')
         glyph.width = 500
@@ -69,12 +70,39 @@ for dirname, name in variations:
         glyph.glyphclass = 'baseligature'
         glyph.glyphname = liganame + '.ligature'
         glyph.addPosSub('ligatures-1', names)
+        createdtbl.update({glyph.glyphname: glyph})
 
         glyph.importOutlines(f'build/{dirname}-liga/{filename}')
         glyph.width = 500 * len(names)
         glyph.removeOverlap()
         glyph.simplify(1)
         glyph.addExtrema("all")
+
+    for filename in os.listdir(f'build/{dirname}-cont'):
+        print(f'importing build/{dirname}-cont/{filename}')
+        contname = filename.replace('.svg', '')
+        glyph = font.createChar(-1, contname)
+        glyph.glyphname = contname
+        createdtbl.update({glyph.glyphname: glyph})
+
+        glyph.importOutlines(f'build/{dirname}-cont/{filename}')
+        glyph.width = 500
+        glyph.removeOverlap()
+        glyph.simplify(1)
+        glyph.addExtrema("all")
+
+    font.addLookup('caltrules', 'gsub_contextchain', None, (("calt",(("DFLT",("dflt")),("latn",("dflt")),)),))
+    with open('caltrules.txt', 'r') as crfile:
+        crlines = crfile.read().split('\n')
+        for crline in filter(lambda line: line != '', crlines):
+            contname, prenames, rule = crline.split(':')
+            font.addLookup(contname, 'gsub_single', None, (("aalt",(("DFLT",("dflt")),("latn",("dflt")),)),))
+            font.addLookupSubtable(contname, contname + '-1')
+            for name in prenames.split(' '):
+                preglyph = createdtbl[name]
+                preglyph.addPosSub(contname + '-1', contname)
+            rule = rule.replace('!', f'[{prenames}] @<{contname}>')
+            font.addContextualSubtable('caltrules', contname, 'coverage', rule)
 
     font.removeOverlap()
     font.correctDirection()

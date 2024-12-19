@@ -1,0 +1,4 @@
+lefthyphen:hyphen:! | [hyphen longhyphen righthyphen]
+righthyphen:hyphen:[lefthyphen longhyphen] | !
+longhyphen:hyphen lefthyphen righthyphen:[hyphen longhyphen lefthyphen righthyphen] | ! | [hyphen longhyphen lefthyphen righthyphen]
+
