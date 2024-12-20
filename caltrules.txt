@@ -1,7 +1,10 @@
-lefthyphen:hyphen:! | [hyphen longhyphen righthyphen]
-righthyphen:hyphen:[lefthyphen longhyphen] | !
-longhyphen:hyphen lefthyphen righthyphen:[hyphen longhyphen lefthyphen righthyphen] | ! | [hyphen longhyphen lefthyphen righthyphen]
+lefthyphen:hyphen:! | [hyphen longhyphen righthyphen greater leftarrowhead]
+righthyphen:hyphen:[lefthyphen longhyphen less leftarrowhead] | !
+longhyphen:hyphen lefthyphen righthyphen:[hyphen longhyphen lefthyphen righthyphen less leftarrowhead] | ! | [hyphen longhyphen lefthyphen righthyphen greater rightarrowhead]
 
 leftequal:equal:! | [equal longequal rightequal]
 rightequal:equal:[leftequal longequal] | !
 longequal:equal leftequal rightequal:[equal longequal leftequal rightequal] | ! | [equal longequal leftequal rightequal]
+
+leftarrowhead:less:! | [hyphen longhyphen righthyphen]
+rightarrowhead:greater:[hyphen longhyphen lefthyphen] | !
