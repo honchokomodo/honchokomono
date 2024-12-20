@@ -2,3 +2,6 @@ lefthyphen:hyphen:! | [hyphen longhyphen righthyphen]
 righthyphen:hyphen:[lefthyphen longhyphen] | !
 longhyphen:hyphen lefthyphen righthyphen:[hyphen longhyphen lefthyphen righthyphen] | ! | [hyphen longhyphen lefthyphen righthyphen]
 
+leftequal:equal:! | [equal longequal rightequal]
+rightequal:equal:[leftequal longequal] | !
+longequal:equal leftequal rightequal:[equal longequal leftequal rightequal] | ! | [equal longequal leftequal rightequal]
